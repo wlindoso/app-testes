@@ -57,6 +57,13 @@ const styles = StyleSheet.create({
     borderRadius: 30,
     padding: 16,
     margin: 10,
+    // Adicionando sombra para Android
+    elevation: 5,
+    // Adicionando sombra para iOS
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.3,
+    shadowRadius: 2,
   },
   input: {
     width: "90%",
